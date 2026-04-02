@@ -1,14 +1,14 @@
 # Paradigmas de Programação: Imperativo vs Declarativo
 
-Os paradigmas de programação definem a forma como um programa é estruturado e executado. Entre os principais paradigmas estão o imperativo e o declarativo, que diferem na maneira como as instruções são fornecidas ao computador.
+Os paradigmas de programação definem as abordagens fundamentais para a estruturação e execução de programas. Dentre os principais, destacam-se os paradigmas imperativo e declarativo, que se diferenciam pela forma como as instruções são especificadas ao computador.
 
 ## Paradigma Imperativo
 
-No paradigma imperativo, o programador descreve passo a passo como o problema deve ser resolvido, especificando claramente o fluxo de execução.
+No paradigma imperativo, o desenvolvedor descreve explicitamente cada etapa necessária para a resolução do problema, detalhando o fluxo de execução e as operações a serem realizadas.
 
 ## Paradigma Declarativo
 
-No paradigma declarativo, o foco está em o que deve ser feito, sem detalhar o processo de execução. O sistema se encarrega de encontrar a solução.
+No paradigma declarativo, o foco está na definição do resultado desejado, sem a necessidade de explicitar o processo de execução. Nesse caso, o sistema é responsável por determinar como a solução será obtida.
 
 ## Comparação: Java (Imperativo) vs Prolog (Declarativo)
 
@@ -44,17 +44,17 @@ fatorial(N, F) :-
 
 ## Comparação Entre os Paradigmas
 
-O paradigma imperativo descreve de forma detalhada o passo a passo do algoritmo, enquanto o declarativo descreve a relação entre as variáveis e o sistema busca a solução automaticamente.
+O paradigma imperativo caracteriza-se pela descrição detalhada do algoritmo, enquanto o paradigma declarativo enfatiza as relações lógicas entre os dados, delegando ao sistema a responsabilidade de encontrar a solução.
 
 ## Vantagens e Desvantagens
 
-- **Imperativo**: Mais controle e eficiência, porém mais verboso e suscetível a erros.
-- **Declarativo**: Código mais conciso e legível, ideal para sistemas baseados em regras, mas com menor controle de execução.
+- **Imperativo**: Proporciona maior controle sobre a execução e, em muitos casos, melhor desempenho. Entretanto, tende a ser mais verboso e mais suscetível a erros de implementação.
+- **Declarativo**: Apresenta maior concisão e legibilidade, sendo especialmente adequado para sistemas baseados em regras. Por outro lado, oferece menor controle direto sobre o processo de execução.
 
 ## Conclusão
 
-O paradigma imperativo (Java) exige que o programador detalhe como o cálculo deve ser feito, controlando o fluxo e as operações.
+O paradigma imperativo, exemplificado pelo uso de Java, exige que o programador especifique detalhadamente o fluxo de controle e as operações necessárias para a resolução do problema.
 
-Já o paradigma declarativo (Prolog) permite que o programador descreva apenas a lógica do problema, deixando a execução e a resolução para o interpretador.
+Por sua vez, o paradigma declarativo, como no Prolog, permite que o desenvolvedor descreva apenas a lógica do problema, delegando ao interpretador a responsabilidade pela execução.
 
-Ambos alcançam o mesmo resultado, mas com abordagens conceituais diferentes, evidenciando a diversidade de estilos na programação.
+Ambas as abordagens conduzem ao mesmo resultado, porém por meio de perspectivas conceituais distintas, evidenciando a diversidade de estilos existentes na programação.
