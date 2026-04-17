@@ -3,11 +3,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public non-sealed class Vendedor extends Pessoa {
-    private String loja;
+    private Loja loja;
     private double salarioBase;
     private List<Double> salarioRecebido;
 
-    public Vendedor(String name, int age, String loja, Endereco endereco, double salarioBase) {
+    public Vendedor(String name, int age, Loja loja, Endereco endereco, double salarioBase) {
         super(name, age, endereco);
         this.loja = loja;
         this.salarioBase = salarioBase;
@@ -33,11 +33,11 @@ public non-sealed class Vendedor extends Pessoa {
         return salarioBase * 0.2;
     }
 
-    public String getLoja() {
+    public Loja getLoja() {
         return loja;
     }
 
-    public void setLoja(String loja) {
+    public void setLoja(Loja loja) {
         this.loja = loja;
     }
 
